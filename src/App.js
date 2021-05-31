@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="w-full mt-2">
-      <div className="flex flex-wrap items-center justify-center max-w-md bg-orange-200 mx-auto border-4 border-orange-500 rounded-lg">
+      <div className="flex flex-wrap items-center justify-center max-w-md bg-gray-800 mx-auto border-8 border-gray-800 rounded-lg">
         <Textarea setText={setText} text={text} />
         <KeyPad setText={setText} text={text} />
       </div>

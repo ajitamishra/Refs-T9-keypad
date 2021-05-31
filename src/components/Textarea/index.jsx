@@ -10,7 +10,7 @@ function Textarea({ text, setText }) {
   return (
     <div className="w-full flex justify-center">
       <textarea
-        className="w-full h-60 outline-none p-4 rounded-lg"
+        className="w-full h-80 outline-none p-12 border-8 text-2xl border-gray-900 "
         value={text.current.previousValue + text.current.currentValue}
         onChange={onChangeHandler}
       ></textarea>
